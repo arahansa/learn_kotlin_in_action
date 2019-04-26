@@ -1,9 +1,10 @@
 package chap03
 
-val kotlinLogo = """| //
-                   ./ //
+val kotlinLogo = """|  //
+                   .| //
                    .|/ \"""
 
 fun main() {
+    println(kotlinLogo)
     println(kotlinLogo.trimMargin("."))
 }
