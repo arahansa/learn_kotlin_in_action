@@ -10,5 +10,5 @@ fun <T:Any> printHashCode2(t:T){
 
 fun main() {
     printHashCode(null)
-    printHashCode2(null)
+    // printHashCode2(null)
 }
